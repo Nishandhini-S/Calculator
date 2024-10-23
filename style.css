@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(188, 231, 202) /* Dark background color */
+ }
+ 
+ .calculator {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgb(20, 196, 143); /* White background for the calculator */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: adds some depth */
+ }
+ 
+ .display {
+    width: 100%;
+    height: 50px;
+    text-align: right;
+    font-size: 2em;
+    margin-bottom: 10px;
+    background-color: #f7f7f7; /* Light gray background for display */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+ }
+ 
+ .btn {
+    padding: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color:rgb(99, 221, 160);
+    color: white;
+    border: none;
+    border-radius: 5px;
+ }
+ 
+ .btn:hover {
+    background-color: #76e991;
+ }
+ 
